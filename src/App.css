@@ -1,0 +1,19 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #4a98f7;
+  min-height: 100vh;
+  width: 100%;
+  gap: 10px;
+}

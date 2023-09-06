@@ -1,0 +1,45 @@
+.toolbar {
+  padding: 12px 18px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.color {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 150px;
+  justify-content: space-between;
+  margin: 8px 0;
+  .option {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #4a98f7;
+  }
+  button li[data-attribute="#fff"] {
+    background-color: #fff;
+  }
+  button[data-attribute="#000"] .option {
+    background-color: #000;
+  }
+  button[data-attribute="#808080"] .option {
+    background-color: #808080;
+  }
+  button[data-attribute="#ffa500"] .option {
+    background-color: #ffa500;
+  }
+  button[data-attribute="#ff0000"] .option {
+    background-color: #ff0000;
+  }
+  button[data-attribute="#0000ff"] .option {
+    background-color: #0000ff;
+  }
+  button[data-attribute="#008000"] .option {
+    background-color: #008000;
+  }
+  button[data-attribute="#ffff00"] .option {
+    background-color: #ffff00;
+  }
+}
